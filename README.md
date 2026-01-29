@@ -15,7 +15,7 @@ This detection targets **Event ID 4625 (failed logon)** with **Logon Type 3 (net
 - Provide actionable context to analysts (user, source IP, host, failure codes)
 - Support consistent triage via a documented runbook
 
-- ### MITRE ATT&CK Mapping
+### MITRE ATT&CK Mapping
 - **T1110** — Brute Force
 - **T1078** — Valid Accounts
 
@@ -63,12 +63,6 @@ A mini SOC runbook was created for analyst triage and investigation.
 📄 Runbook:
 - [4625 Remote Failed Logons Runbook](runbooks/4625_remote_failed_logons_runbook.pdf)
 
-
-### Validation Evidence
-See screenshots in `screenshots/`:
-- `spl_search_results.png`
-- `alert_configuration.png`
-- `triggered_alerts.png`
 
 ### Future Improvements
 See: `notes/future_improvements.md`
